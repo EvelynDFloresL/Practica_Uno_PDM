@@ -18,9 +18,9 @@ const routes: Routes = [
   { path: 'perfil', component: PerfilComponent },
   { path: 'estructuras', component: EstructurasComponent },
   { path: 'documentacion', component: DocumentacionComponent },
-  { path: 'usuarios', component: UsuariosComponent },
+  { path: 'usuarios', component: UsuariosComponent }/*,
   { path: '', redirectTo: '/pages/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/pages/home' }
+  { path: '**', redirectTo: '/pages/home' }*/
 ];
 
 @NgModule({
