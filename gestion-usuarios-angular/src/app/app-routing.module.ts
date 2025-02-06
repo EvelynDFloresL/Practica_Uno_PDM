@@ -14,7 +14,7 @@ const routes: Routes = [
     path: 'pages',
     loadChildren: () => import('./pages/pages.module').then(m => m.PagesModule)
   },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'perfil', component: PerfilComponent },
   { path: 'estructuras', component: EstructurasComponent },
   { path: 'documentacion', component: DocumentacionComponent },

@@ -7,6 +7,8 @@ import { EstructurasComponent } from './estructuras/estructuras.component';
 import { DocumentacionComponent } from './documentacion/documentacion.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 
+// Importar el NavbarComponent
+import { NavbarComponent } from '../partials/navbar/navbar.component'
 
 
 @NgModule({
@@ -15,7 +17,8 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
     PerfilComponent,
     EstructurasComponent,
     DocumentacionComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,

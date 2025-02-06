@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http'; // Importar HttpClientM
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
