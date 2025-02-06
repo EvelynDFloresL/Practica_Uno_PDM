@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./estructuras.component.css']
 })
 export class EstructurasComponent {
+  mostrarTexto: boolean = false;
+  nombres: string[] = ['Evelyn', 'Fernando', 'Valeria'];
+  opcionSeleccionada: string = '1';
 
+  toggleTexto() {
+    this.mostrarTexto = !this.mostrarTexto;
+  }
 }
+

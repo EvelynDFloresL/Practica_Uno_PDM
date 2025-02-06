@@ -6,7 +6,7 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { EstructurasComponent } from './estructuras/estructuras.component';
 import { DocumentacionComponent } from './documentacion/documentacion.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
-
+import { FormsModule } from '@angular/forms';
 // Importar el NavbarComponent
 import { NavbarComponent } from '../partials/navbar/navbar.component'
 
@@ -22,7 +22,8 @@ import { NavbarComponent } from '../partials/navbar/navbar.component'
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FormsModule
   ]
 })
 export class PagesModule { }
